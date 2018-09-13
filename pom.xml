@@ -4,7 +4,7 @@
 
     <groupId>com.elti</groupId>
     <artifactId>elti-pet-clinic</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -47,8 +47,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/eltishehu/elti-pet-clinic.git</developerConnection>
-    <tag>elti-pet-clinic-0.0.3</tag>
+        <developerConnection>scm:git:git@github.com:eltishehu/elti-pet-clinic.git</developerConnection>
   </scm>
 
 </project>
