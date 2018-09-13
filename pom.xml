@@ -47,7 +47,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/eltishehu/elti-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:eltishehu/elti-pet-clinic.git</developerConnection>
       <tag>elti-pet-clinic-0.0.3</tag>
   </scm>
 
