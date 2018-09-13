@@ -1,4 +1,4 @@
-package com.elti.petclinic;
+package petclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
