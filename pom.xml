@@ -48,6 +48,6 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:eltishehu/elti-pet-clinic.git</developerConnection>
-  </scm>
+    </scm>
 
 </project>
