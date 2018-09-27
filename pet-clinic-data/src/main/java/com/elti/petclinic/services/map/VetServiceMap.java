@@ -2,12 +2,14 @@ package com.elti.petclinic.services.map;
 
 import com.elti.petclinic.model.Vet;
 import com.elti.petclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 /**
  * Created by e.sh. on 26-Sep-18
  */
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
