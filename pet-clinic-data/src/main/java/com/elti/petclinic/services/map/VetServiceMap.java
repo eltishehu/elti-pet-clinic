@@ -1,14 +1,14 @@
 package com.elti.petclinic.services.map;
 
 import com.elti.petclinic.model.Vet;
-import com.elti.petclinic.services.CrudService;
+import com.elti.petclinic.services.VetService;
 
 import java.util.Set;
 
 /**
  * Created by e.sh. on 26-Sep-18
  */
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {

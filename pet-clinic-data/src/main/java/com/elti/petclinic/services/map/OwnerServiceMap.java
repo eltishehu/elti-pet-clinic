@@ -1,14 +1,14 @@
 package com.elti.petclinic.services.map;
 
 import com.elti.petclinic.model.Owner;
-import com.elti.petclinic.services.CrudService;
+import com.elti.petclinic.services.OwnerService;
 
 import java.util.Set;
 
 /**
  * Created by e.sh. on 26-Sep-18
  */
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
     public Set<Owner> findAll() {
@@ -33,5 +33,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     @Override
     public void deleteById(Long id) {
         super.deleteById(id);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }
