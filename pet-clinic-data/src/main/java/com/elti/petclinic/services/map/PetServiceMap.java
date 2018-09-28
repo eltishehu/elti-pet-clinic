@@ -1,7 +1,7 @@
 package com.elti.petclinic.services.map;
 
 import com.elti.petclinic.model.Pet;
-import com.elti.petclinic.services.CrudService;
+import com.elti.petclinic.services.PetService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
@@ -10,7 +10,7 @@ import java.util.Set;
  * Created by e.sh. on 26-Sep-18
  */
 @Service
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
