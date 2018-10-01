@@ -1,10 +1,17 @@
 package com.elti.petclinic.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
 /**
  * Created by e.sh. on 28-Sep-18
  */
+@Entity
+@Table(name = "specialties")
 public class Specialty extends BaseEntity {
 
+    @Column(name = "description")
     private String description;
 
     public String getDescription() {
