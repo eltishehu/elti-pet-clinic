@@ -7,4 +7,6 @@ import org.springframework.data.repository.CrudRepository;
  * Created by e.sh. on 01-Oct-18
  */
 public interface OwnerRepository extends CrudRepository<Owner, Long> {
+
+    Owner findByLastName(String lastName);
 }
